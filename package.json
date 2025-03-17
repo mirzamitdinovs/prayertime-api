@@ -3,7 +3,8 @@
   "version": "1.0.50",
   "scripts": {
     "dev": "bun run --watch src/app.ts",
-    "start": "bun run src/app.ts"
+    "start": "bun run src/app.ts",
+    "build": "echo 'No build needed for Bun'"
   },
   "dependencies": {
     "@elysiajs/swagger": "^1.2.2",
