@@ -3,10 +3,14 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/app.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/swagger": "^1.2.2",
+    "canvas": "^3.1.0",
+    "cheerio": "^1.0.0",
+    "elysia": "latest",
+    "logixlysia": "^4.1.2"
   },
   "devDependencies": {
     "bun-types": "latest"
