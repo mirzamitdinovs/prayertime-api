@@ -3,6 +3,8 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bun build src/app.ts",
+    "start": "bun run src/app.ts",
     "dev": "bun run --watch src/app.ts"
   },
   "dependencies": {
